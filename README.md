@@ -11,12 +11,12 @@ While Linear Regression is suited for estimating continuous values (e.g. estimat
 
 As you know, Linear regression finds a function that relates a continuous dependent variable, y, to some predictors (independent variables x1, x2, etc.). For example, Simple linear regression assumes a function of the form:
 
-y=θ0+θ1∗x1+θ2∗x2+...
+                                                                                                      y=θ0+θ1∗x1+θ2∗x2+...
  
 
 and finds the values of parameters θ0, θ1, 𝜃2, etc, where the term 𝜃0 is the "intercept". It can be generally shown as:
 
-hθ(x)=θTX
+                                                                                                        hθ(x)=θTX
  
 </div>
 
@@ -24,7 +24,7 @@ Logistic Regression is a variation of Linear Regression, useful when the observe
 
 Logistic regression fits a special s-shaped curve by taking the linear regression and transforming the numeric estimate into a probability with the following function, which is called sigmoid function 𝜎:
 
-hθ(x)=σ(θTX)=e(θ0+θ1∗x1+θ2∗x2+...)1+e(θ0+θ1∗x1+θ2∗x2+...)
+                                                                                 hθ(x)=σ(θTX)=e(θ0+θ1∗x1+θ2∗x2+...)1+e(θ0+θ1∗x1+θ2∗x2+...)
  
 Or:
 ProbabilityOfaClass1=P(Y=1|X)=σ(θTX)=eθTX1+eθTX
