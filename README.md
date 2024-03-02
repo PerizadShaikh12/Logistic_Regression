@@ -35,6 +35,4 @@ In this equation,  θTX
 
 So, briefly, Logistic Regression passes the input through the logistic/sigmoid but then treats the result as a probability:
 
-<img src="https://ibm.box.com/shared/static/kgv9alcghmjcv97op4d6onkyxevk23b1.png" width = "400" align = "center">
-
 The objective of Logistic Regression algorithm, is to find the best parameters θ, for ℎ_θ(𝑥) = 𝜎({θ^TX}), in such a way that the model best predicts the class of each case.
